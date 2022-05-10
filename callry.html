@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+  
+}
+.container{
+    width: 980px;
+    margin: auto;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 20;
+}
+.iner-header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.header{
+    
+}
+#menu{
+    display: flex;
+    
+}
+ul#menu  a{
+    display: block;
+   padding: 15px 15px;
+   margin-right: 35px;
+   font-weight: bold;
+   font-size: 18px;
+}
+#menu ul.sub-menu{
+    position: absolute;
+    padding: 0px 0px;
+    list-style: none;
+    width: 200px;
+    display: none;
+}
+#menu li:hover ul.sub-menu {
+    display: block;
+}
+.banner{
+    margin: auto;
+    width: 980px;
+    margin-top: 53px;
+    
+}
+.banner img{
+    height: 400px;
+    margin: auto;
+}
+#logo{
+    margin-left: 35px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #7085f1;
+}
+nav ul li:hover a{
+    background-image: linear-gradient(#b132b3,#2e3b80);
+    color: #fff;
+    transition: 0.3s;
+}
+#conten{
+    width: 980px;
+    min-height: 400px;
+    background-color: white;
+    margin: auto;
+    color: darkgray;
+}
+footer{
+    text-align: center;
+    color: #615353;
+    height: 90px;
+    line-height: 90px;
+    font-size: 18px;
+    font-family: monospace;
+}
+</style>
+<body>
+    <header>
+        <div class="header">
+           <div class="iner-header container">
+               <a href="" id="logo">Swimming</a>
+            <nav>
+                <ul id="menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="https://jeffkellyinc.com/about/" target="about-us">About us</a>
+                        <ul class="sub-menu">
+                            <li><a href="https://www.goldfishswimschool.com/about/our-story/" target="about-us">Our story</a></li>
+                            <li><a href="https://www.goldfishswimschool.com/press-center/" target="about-us">In the news</a></li>
+                            <li><a href="https://www.goldfishswimschool.com/about/our-facility/" target="about-us">Our Facility</a></li>
+                            <li><a href="https://www.goldfishswimschool.com/blog/" target="about-us">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://jeffkellyinc.com/" target="Callary">Callary</a>
+                    </li>
+                    <li><a href="https://blog.swim.com/" target="Blog">Blog</a></li>
+                    <li><a href="https://jeffkellyinc.com/contact/" target="Contacts">Contacts</a></li>
+                </ul>
+            </nav>
+           </div>
+        </div>
+    </header>    
+        <div class="banner">
+            <a href="https://jeffkellyinc.com/" target="banner"><img src="swim.jpg" alt="" ></a>
+        </div>
+        <div id="conten">
+            <h1>Who’s Jeff? The History of Jeff Kelly inc.</h1>
+            <p>Personalized Swim Instruction™
+                is a curriculum designed for ages four* to adult, and offers a spectrum of aquatic education from survival to swim team preparation. One of the most unique aspects of our curriculum is that even while teaching our young students the basic techniques needed for survival, we are integrating the correct techniques for competitive swimming. </p>
+        </div>
+        <footer>
+            <p>Swimming 2020.All Rights Reserved. Privacy Policy.</p>
+        </footer>
+</body>
+</html>

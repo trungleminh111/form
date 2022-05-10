@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Công thức</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #monan img{
+            width: 800px;
+            height: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        #tenmon{
+            color: #ccc;
+            font-size: 20px;
+            border-bottom:1px solid #ccc ;
+
+        }
+        #congthuc{
+            margin-left: 30px;
+            font-size: 17px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper{
+            width: 980px;
+            margin: auto;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .main-menu{
+            display: flex;
+        }
+        #menu{
+            display: flex;
+            list-style: none;
+            
+        }
+        #menu li a{
+            display: block;
+            text-decoration: none;
+            margin-right: 30px;
+            font-size: 20px;
+            line-height: 75px;
+            color: #4c22c2;
+
+            
+        }
+        .login{
+            margin-right: 50px;
+        }
+        .login{
+            line-height: 75px;
+        }
+        .banner img{
+            margin-top: 75px;
+        }
+        #use-login{
+            width: 90px;
+            height: 20px;
+            background-color: #4c22c2;
+            color: white;
+            border: none;
+        }
+        #use-login:hover{
+            background-color: #d6289c;
+            cursor: pointer;
+        }
+        header{
+            position: fixed;
+            top: 0;
+            width: 980px;
+            background-color: #fff;
+            z-index: 20;
+        }
+        h1{
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        #monan img{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #congthuc{
+            margin-bottom: 20px;
+            color: darkgray;
+        }
+        #tenmon{
+            color: burlywood;
+            font-size: 20px;
+            padding: 0px 30px;
+        }
+        footer{
+            background-color: cadetblue;
+            width: 980px;
+            min-height: 30px;
+            display: flex;
+            margin-top: 10px;
+
+        }
+        #muc1{
+            margin-left:200px ;
+        }
+        #muc2{
+            margin-left: 100px;
+        }
+        #muc3{
+            margin-left: 100px;
+        }
+        #muc1 p{
+            text-decoration: none;
+            color: darkgrey;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #muc2 p{
+            text-decoration: none;
+            color: darkgrey;
+            margin-top: 10px;
+        }
+        #muc3 i{
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        #muc1 a{
+            text-decoration: none;
+        }
+        #muc2 a{
+            text-decoration: none;
+        }
+        i.fa-brands{
+            color: blue;
+        }
+        i.fa-instagram{
+            color: orangered;
+        }
+        i.fa-envelope{
+            color: red;
+        }
+        #muc1 h4{
+            margin-top: 10px;
+        }
+        #muc2 h4{
+            margin-top: 10px;
+        }
+        #muc3 h4{
+            margin-top: 10px;
+        }
+        .banner img:hover {
+            opacity: 0.60;
+        }
+        #hang1 img:hover{
+            opacity: 0.80;
+        }
+        #menu li a:hover{
+            background-image: linear-gradient(#d6289c,#4c22c2);
+            height: 75px;
+            color:  white;
+        }
+        .login{
+            line-height: 75px;
+        }
+        h1{
+            color: burlywood;
+            font-size: 40px;
+        }
+
+    </style>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div id="logo">
+                    <img src="lohohue.png" alt="">
+                   </div>
+                   <div class="main-menu">
+                        <ul id="menu">
+                            <li><a href="food.html">Trang chủ</a></li>
+                            <li><a href="vechungtoi.html" target="blank">Về chúng tôi</a></li>
+                            <li><a href="">Từ Khoá </a></li>
+                            <li><a href="congthuc.html" target="blank">Công thức</a></li>
+                        </ul>
+                        <div class="login">
+                            <a href="form1.html"><input type="submit" value="Đăng Nhập" id="use-login"></a>
+                        </div>
+                   </div>
+            </div>
+        </header>
+        <div class="banner">
+            <img src="bannerhue1.jpg" alt="">
+        </div>
+        
+    <h1>Công thức</h1>
+    <div id="monan">
+        <p id="tenmon">
+            Beefsteak
+        </p>
+        <img src="Bo-bit-tet-va-7-cap-do-chin-1.jpg" alt="">
+        <div id="congthuc">
+            Để làm nên một món ăn ngon lành, trước hết bạn cần chọn được nguyên liệu ngon. Bạn có thể sử dụng beef steak thăn lưng, New York steak, ribeye steak. Những miếng bít tết với vân cẩm thạch tốt sẽ cho bạn thành quả ngon nhất.
+
+            Bít tết bò Fuji là một trong những lựa chọn tuyệt vời dành cho những nhà nội trợ thông thái. Bít tết Fuji được lấy từ phần thịt thăn mềm và ngon nhất của con bò. Những chú bò được nuôi và chăm sóc theo tiêu chuẩn Nhật Bản, Úc cho chất lượng thịt thơm ngon. Đồng thời được đưa thêm tinh chất Nấm Shimeji – tinh chất từ xương thịt, sữa bò (Kobe, Wagyu). Bít tết có vân cẩm thạch đặc trưng và chất lượng tuyệt vời. Bạn còn có thể lựa chọn bít tết Fuji đã được sơ chế thành từng miếng vừa ăn.
+
+            Beef steak bò Fuji là một trong những lựa chọn tuyệt vời dành cho những nhà nội trợ thông thái
+
+            Trong công thức dưới đây chúng tôi sử dụng miếng beef steak 450g, dày 3cm. Hãy nhớ rằng miếng bít tết dày hơn sẽ mất nhiều thời gian để nấu hơn và miếng bít tết mỏng hơn sẽ nấu nhanh hơn.
+
+            Sử dụng chảo gang lớn sẽ giúp dẫn nhiệt tốt nhất, hoặc sử dụng chảo thép không gỉ nặng.
+
+            Nhiệt độ bên trong beef steak tiếp tục tăng khi nó nghỉ. Vì vậy hãy lấy beef steak ra khỏi chảo cách khoảng 5-10 độ C trước khi đạt được độ chín mong muốn. Có thể kiểm tra nhiệt độ dễ dàng bằng nhiệt kế đo thực phẩm tức thì.
+            <br>
+            Tái vừa (mềm, bên trong màu hồng đậm): 62oC
+            <br>
+            Chín vừa (mềm, có màu hồng bên trong): 71oC
+            <br>
+            Mức chín: 77oC
+        </div>
+    </div>
+    <div id="monan">
+        <p id="tenmon">
+            Mực nướng
+        </p>
+        <img src="mực.jpg" alt="">
+        <div id="congthuc">
+            Sơ chế mực
+            Mực lá ngon và ngọt thịt hơn mực ống, mua về rút bỏ mai, răng, mắt, có thể lột da nếu muốn rồi rửa sạch cả trong lẫn ngoài với chút giấm và gừng cho bớt mùi tanh. Rửa sạch lại với nước rồi vớt ra để ráo.
+
+            Nếu thịt mực dày thì dùng dao khứa chéo nhiều đường tạo hình vảy rồng vừa đẹp mắt vừa ngấm gia vị tốt hơn.
+            <br>
+            Bước 1 Sơ chế mực Mực nướng muối ớt           
+            Giã muối ớt
+            Ớt tươi và muối hột đem giã nhỏ để thu được hỗn hợp muối ớt. Lượng ớt và lượng đường cân đối để không quá mặn cũng như phù hợp với khẩu vị cay của mỗi người.
+            <br>
+            Bước 2 Giã muối ớt Mực nướng muối ớt
+            Ướp mực
+            Ướp mực với muối ớt 30 phút cho ngấm gia vị sau đó tiến hành nướng.
+            <br>
+            Bước 3 Ướp mực Mực nướng muối ớt
+            Nướng mực
+            Để nướng mực bạn có thể nướng bằng vỉ nướng than hoa, nướng bằng nồi chiên không dầu hoặc nướng bằng lò nướng. Trong đó nướng bằng nồi chiên không dầu và lò nướng là nhanh gọn và tiết kiệm thời gian hơn cả.
+        </div>    
+    </div>   
+    <div id="monan">
+        <p id="tenmon">
+            Gà chiên
+        </p>
+        <img src="gà.jpg" alt="">
+        <div id="congthuc">
+            Bước 1 Ướp thịt gà
+
+            Thịt gà sau khi rửa sạch, các bạn để thật ráo rồi dùng mũi dao xăm từng lỗ nhỏ bên mặt trong đùi gà. Như vậy đùi gà sẽ thấm gia vị hơn đấy.
+
+            Bạn ướp thịt gà với 3 thìa canh hạt nêm, nửa thìa cà phê bột ớt, 1 thìa canh đường, 1 thìa cà phê nước cốt chanh. Cho tỏi xay nhuyễn và hành tím xay nhuyễn vào ướp chung và trộn đều lên. Bạn nên dùng tỏi xay và hành xay vì khi chiên sẽ không làm bị khét.
+
+            Để thịt gà thấm gia vị trong 30 phút.
+
+            Ướp thịt gà làm gà chiên kiểu KFC
+            <br>
+            Bước 2 Làm chín thịt gà
+
+            Chỉ lăn bột rồi chiên thì thịt sẽ không đủ chín. Vì thế chúng ta có thể làm chín thịt gà trước khoảng 80% để khi chiên, thịt được chín đều và ngon hơn bạn nha.
+
+            Bắc một chiếc chảo chống dính lên bấp, đợi khi chảo nóng thì cho thịt gà vào, đậy nắp và hầm như vậy với lửa nhỏ trong khoảng 3 phút. Sau đó, bạn trở thịt, tiếp tục đậy nắp và hầm với lửa vừa trong khoảng 3 - 5 phút. Khi bạn thấy thịt đã chín khoảng 80% là được.
+
+            Làm chín thịt gà để làm gà chiên kiểu KFC
+            <br>
+            Bước 3 Chiên gà
+
+            Bạn trộn đều bột mì và bột bắp theo tỉ lệ 3 bột bắp : 1 bột mì. Đánh tan 2 quả trứng gà cùng 1 thìa canh sữa tươi không đường. Cho bột chiên xù ra 1 đĩa rộng rãi để bạn có thể dễ lăn bột. Bạn có thể thay bước này bằng bột chiên giòn nhé
+
+            Gà sau khi làm chín, bạn lăn qua 1 lớp bột khô (bột bắp và bột mì đã trộn đều), nhúng qua một lớp trứng, và cuối cùng là phủ qua 1 lớp bột xù. Nếu bạn thích ăn lớp bột dày hơn thì có thể lặp lại quá trình lăn bột nhé.
+
+            Thịt gà sau khi đã lăn bột, bạn để thịt vào ngăn mát tủ lạnh khoảng 10 phút để bột được dính chặt vào gà, khi chiên thì bột sẽ không bị rơi ra.
+
+            Bắc chảo hoặc nồi lên bếp, cho một lượng dầu đủ để ngập gà. Khi dầu nóng, bạn chiên gà ngập dầu đến khi gà chín vàng hấp dẫn thì vớt ra để ráo dầu.
+        </div>    
+    </div>   
+    <div id="monan">
+        <p id="tenmon">
+            Bò nướng
+        </p>
+        <img src="bò.jpg" alt="">
+        <div id="congthuc">
+            Sơ chế nguyên liệu
+            Thịt bò mua về rửa sạch, cắt thành từng lát dày khoảng 0,5cm. Nên chọn phần thịt vai hoặc ba chỉ nướng sẽ ngon hơn.
+
+            Hành, tỏi, sả, ớt rửa sạch rồi băm nhỏ, bạn có thể dùng máy xay nhuyễn rồi trút ra tô.Bắc chảo lên bếp đun nóng dầu ăn, tiếp đó cho hạt điều đỏ vào chưng. Sau khi thu được hỗn hợp màu nâu sậm, bạn tắt bếp và vớt bỏ hạt, chỉ để lại phần dầu.
+            <br>
+            Bước 1 Sơ chế nguyên liệu Ướp thịt bò nướngBước 1 Sơ chế nguyên liệu Ướp thịt bò nướng
+            
+            Ướp thịt
+            Trộn các nguyên liệu gồm: Hành + tỏi + sả xay nhuyễn + dầu hào + dầu điều + mật ong + bột quế + tiêu xay. Tùy theo khẩu vị bạn thêm đường, bột ngọt, muối vào cho vừa ăn rồi tiến hành ướp thịt.
+
+            Ướp thịt bò: Trải từng miếng thịt bò ra đĩa, dùng găng tay lấy hỗn hợp ướp thịt xoa đều cả hai mặt miếng thịt. Sau đó cho thịt bò vào tô lớn bóp, trộn cho gia vị thấm thật đều vào miếng thịt.
+
+            Tiếp theo lấy màng bọc thực phẩm bọc miệng tô để vào ngăn mát tủ lạnh 4-5 tiếng. Để thịt nướng đạt yêu cầu bạn phải ướp ít nhất là 2 tiếng thì gia vị mới thấm sâu vào miếng thịt.
+            <br>
+            Bước 2 Ướp thịt Ướp thịt bò nướng
+            
+            Nướng thịt
+            Sau khi ướp lấy thịt bò đặt lên bếp nướng. Bạn có thể nướng bằng than hoa hoặc bếp nướng điện.
+
+            Khi nướng nhớ lật giở đều miếng thịt để thịt không bị cháy.
+        </div>    
+    </div>   
+    <div id="monan">
+        <p id="tenmon">
+            Hamburger
+        </p>
+        <img src="hamberger.jpg" alt="">
+        <div id="congthuc">
+            Hamburger là một trong những món ăn nhanh nhận được sự yêu thích của nhiều người, không chỉ Việt Nam mà còn ở các nước trên thế giới. Bạn có thể thấy rất nhiều cửa tiệm thức ăn nhanh, chẳng hạn như KFC, MCDonal’s, Lotteria, … luôn được nhắc đến mỗi khi nói về thương hiệu Hamburger nổi tiếng. Vậy cách làm hamburger có khó không? Câu trả lời là không khó nha cả nhà! Dưới đây là Công thức làm bánh Hamburger chất lượng tuyệt đỉnh như ở tiệm mà bạn có thể tự tay làm tại nhà cho gia đình cùng thưởng thức đấy nhé!
+
+            Bánh mì hamburger
+            Bánh mì hamburger
+            A. Phần vỏ bánh:
+            1) Nguyên liệu:
+            – 300g bột bánh mì
+
+            – 50g bột mì đa dụng
+
+            – 180ml sữa tươi không đường
+
+            – 80ml nước
+
+            – 15g đường
+
+            – 5g men nở
+
+            – 2g muối
+
+            – 30g bơ để mềm
+
+            2) Cách bước thực hiện:
+            – Bước 1: Hoà đường vào sữa và cho men vào khuấy đều để 10 phút, men hoạt động tốt sẽ nổi lên như gạch cua là được.
+            <br>
+            – Bước 2: Rây bột mì, cho muối vào trộn đều tạo lỗ ở giữa và cho hỗn hợp men sữa vào. Trộn đều từ trong ra ngoài đến khi bột thấm đều chất lỏng thì cho bơ vào và nhào bột thành 1 khối dẻo mịn, đàn hồi, không dính tay (nếu dùng máy nhồi khoảng 15-20 phút) sau cùng túm lại thành 1 khối.
+            <br>
+            – Bước 3: Thoa dầu vào âu và cho bột vào, lăn khối bột sao cho dầu bấm đều xung quanh. Dùng một chiếc khăn ướt trùm lên tô và ủ bột trong 1 tiếng rưỡi ở nhiệt độ phòng khoảng 30 – 35 độ C hoặc cho đến khi bạn thấy bột nở gấp đôi phần bột ban đầu.
+            <br>
+            – Bước 4: Sau khi ủ bột xong, bạn đấm xẹp bọt khí trong bánh, rắc một ít bột lên mặt phẳng và lấy bột ra khỏi tô. Chia bột thành 6 phần bằng nhau, nếu bạn muốn bánh đều và đẹp thì có thể cân bột khoảng 95gr – 105gr một phần nhỏ.
+            <br>
+            – Bước 5: Bạn lấy phần bột đã chia, kéo mép bên ngoài của bột nhồi vào bên trong, lặp lại cho đến khi bề mặt bên ngoài tròn mịn không có vết hằng.
+            <br>
+            – Bước 6: Chuẩn bị khay lót giấy nến, cho những phần bột tròn trĩnh lên khay để ủ bánh. Bạn ủ bột trong 1 – 2 tiếng hoặc đến khi nào bột nở gấp đôi nha!
+            <br>
+            – Bước 7: Sau khi các bé bột nở gấp đôi, bạn lấy một cái chén nhỏ ra, sau đó cho vào 1 quả trứng và tí xíu sữa tươi không đường đánh đều lên. Bạn dùng cọ phết đều lên mặt bột phần hỗn hợp trứng sữa vừa khuấy.
+            <br>
+            – Bước 8: Mở lò nhiệt 190 độ C, dùng lòng đỏ pha chút nước quét mặt bánh và rắc mè lên, và cho vào lò nướng 16 đến 18 phút.
+            <br>
+            – Bước 9: Bánh chín vàng mặt lấy ra để lên rack cho nguội. Bánh chín thơm, xốp, nhẹ, đàn hồi khi nhấn vào bánh.
+        </div>    
+    </div>   
+    <div id="monan">
+        <p id="tenmon">
+            Tôm chiên
+        </p>
+        <img src="tôm.jpg" alt="">
+        <div id="congthuc">
+            Cách làm tôm chiên Shrimp Tempura
+            Tôm rửa sạch, bóc vỏ (nhưng chừa lại đuôi tôm), lấy chỉ đen. Dùng kéo sẽ giúp thao tác dễ dàng hơn.
+            cach-lam-tom-chien-shrimp-tempura-nuc-danh-xu-so-hoa-anh-dao-voh
+            <br>
+            Cho 1 lòng đỏ trứng, 1 viên đá lạnh, 125ml nước lọc vào tô, đánh tan.
+            cach-lam-tom-chien-shrimp-tempura-nuc-danh-xu-so-hoa-anh-dao-voh
+            <br>
+            Cho 60g bột lúa mì vào, khuấy đều tạo thành hỗn hợp lỏng.
+            cach-lam-tom-chien-shrimp-tempura-nuc-danh-xu-so-hoa-anh-dao-voh
+            <br>
+            Cho một ít bột mì vào dĩa, lăn tôm tươi qua bột mì.
+            cach-lam-tom-chien-shrimp-tempura-nuc-danh-xu-so-hoa-anh-dao-voh
+            <br>
+            Bắc chảo lên bếp, cho dầu ăn vào lưng chảo, thêm 1 muỗng canh dầu mè vào để tạo hương thơm. Sử dụng nồi hoặc chảo lòng sâu để tiết kiệm dầu.
+            Khi dầu sôi khoảng 180 độ C thì cho 1-2 muỗng canh hỗn hợp bột vào.
+            cach-lam-tom-chien-shrimp-tempura-nuc-danh-xu-so-hoa-anh-dao-voh
+            <br>
+            Nhúng tôm vô bột Tempura, cầm lấy đuôi tôm, nhúng và xoay vài vòng trong dầu sao cho tôm dính vào số bột chiên có sẵn trong dầu mà ta cho vào ở bước trước.
+            cach-lam-tom-chien-shrimp-tempura-nuc-danh-xu-so-hoa-anh-dao-voh
+            <br>
+            Xong thì thả tôm vào dầu, chiên chín rồi vớt ra để ráo dầu.
+            Không cần chiên tôm quá lâu, chỉ cần chiên vừa chín tới để thịt tôm giữ được vị ngọt mềm tự nhiên, bột cũng không quá cứng.
+            Thực hiện lần lượt đến khi hết nguyên liệu là hoàn thành món ăn.
+        </div>    
+    </div>   
+    <div id="monan">
+        <p id="tenmon">
+            Cơm cuộn
+        </p>
+        <img src="com.jpeg" alt="">
+        <div id="congthuc">
+            Bước 1 Sơ chế các nguyên liệu
+            Sơ chế các nguyên liệu
+
+            Cà rốt, dưa leo, cải bó xôi được rửa sạch, gọt bỏ vỏ, cắt sợi vừa ăn rồi chần qua nước sôi. Vớt ra đĩa, để ráo.
+
+            Xúc xích cắt sợi dài.
+            <br>
+            Bước 2 Chiên trứng
+            Trứng được chiên thành một lớp mỏng
+
+            Đập 2 quả trứng vào bát, cho thêm một ít muối rồi đánh tan. Đun nóng chảo với một ít dầu ăn rồi cho trứng vào tráng mỏng.
+
+            Trứng chín thì để nguội rồi cắt sợi dài.
+            <br>
+            Bước 3 Nấu cơm
+            Cơm được trộn với mè rang và dầu mè
+
+            Bát gạo dẻo bạn cho vào nồi cơm, vo sạch rồi canh nước nấu sao cho cơm không quá khô cũng không quá nhão.
+
+            Khi cơm chín thì xới cơm ra tô, để nguội rồi trộn với một ít mè trắng, mè đen đã rang. Cho thêm một muỗng cà phê dầu mè để cơm có mùi thơm.
+            <br>
+            Bước 4 Làm cơm cuộn
+            Bắt đầu làm cơm cuộn
+
+            Bắt đầu trải mành tre lên bàn, cho một lá rong biển lên trên rồi trải một lớp cơm mỏng.
+
+            Bạn lần lượt cho cà rốt, dưa leo, cải bó xôi, xúc xích, trứng chiên lên trên bề mặt cơm.
+
+            Sau đó, từ từ cuốn mành tre lại. Nên nhớ là cuốn chặt tay để phần cơm và nhân không bị rời ra.
+
+            Cơm cuộn khi ăn với nước tương sẽ ngon hơn
+
+            Sau khi đã cuốn xong hết thì bạn thoa một ít dầu mè bên ngoài 1 cây dao để cơm không dính vào dao. Dùng dao cắt những cuộn cơm thành những khoanh tròn vừa ăn là đã có thể thưởng thức ngay.
+        </div>    
+    </div>   
+    <div id="monan">
+        <p id="tenmon">
+            Súp vi cá
+        </p>
+        <img src="sup.jpg" alt="">
+        <div id="congthuc">
+            Sơ chế rau củ
+            Gừng cắt thành các lát mỏng, sau đó đập dập các lát gừng.
+
+            Tương tự với hành boa rô, bạn cắt xéo, đập dập sơ hành boa rô ra.
+
+            Mách bạn: Đập dập hành và gừng giúp cho hành và gừng tỏa ra mùi thơm hơn nên khi luộc với vi cá giúp khử mùi tanh của vi cá tốt hơn.
+            <br>   
+            Bước 1 Sơ chế rau củ Súp vi cá mậpBước 1 Sơ chế rau củ Súp vi cá mập
+            Sơ chế vi cá mập
+            Để khử mùi tanh của vi cá, bạn pha 1 lít nước với 1 muỗng canh rượu trắng rồi cho ra thau, cho tiếp vài lát gừng và một ít hành hành ba rô đã đập dập vào cùng.
+
+            Kế đến, cho vi cá mập vào thau nước, bọc màng bọc thực phẩm lại và để vào ngăn mát tủ lạnh, ngâm trong vòng 1 tiếng, vớt ra để ráo.
+                <br>
+            Bước 2 Sơ chế vi cá mập Súp vi cá mậpBước 2 Sơ chế vi cá mập Súp vi cá mậpBước 2 Sơ chế vi cá mập Súp vi cá mập
+            Luộc vi cá
+            Bắc nồi lên bếp, cho khoảng 1 lít nước lọc, phần gừng và hành boa rô còn lại vào trong nồi. Đun nóng ở lửa vừa.
+
+            Khi thấy nước trong nồi sôi, bạn cho vi cá vào nồi, luộc ở lửa vừa trong khoảng 15 phút cho vi cá chín. Sau đó tắt bếp.
+                <br>
+            Bước 3 Luộc vi cá Súp vi cá mậpBước 3 Luộc vi cá Súp vi cá mậpBước 3 Luộc vi cá Súp vi cá mập
+            
+            Nấu súp vi cá
+            Bắc nồi lên bếp, cho vào nồi khoảng 800ml nước lọc cùng với gói súp và vi cá vào nồi. Đun nóng ở lửa lớn, khuấy đều hỗn hợp.
+
+            Khi thấy nước trong nồi bắt đầu sánh lại, cạn bớt nước (còn khoảng 200ml nước), bạn hạ lửa nhỏ và nêm nếm thêm vào nồi khoảng 1/2 muỗng cà phê muối, 1 muỗng cà phê đường, khuấy đều.
+
+            Cuối cùng đun thêm khoảng 2 - 3 phút thì tắt bếp, vớt từ từ vi cá ra dĩa và rưới từ từ phần nước súp lên trên và mời cả gia đình thưởng thức ngay nhé.
+        </div>    
+    </div>   
+    <div id="monan">
+        <p id="tenmon">
+            Yên xào
+        </p>
+        <img src="yen.jpg" alt="">
+        <div id="congthuc">
+            Bước 1 Đầu tiên, bạn cho yến đã ngâm mềm vào thố hoặc hũ thủy tinh, thêm nước ngập mặt yến, cho vào nồi để hấp cách thủy khoảng 20 - 30 phút.
+            <br>
+            Bước 2 Vặn lửa ở mức độ lớn để nước trong nồi được sôi lên, khi nước sôi, hạ nhỏ lửa để liu riu trong toàn bộ thời gian chưng.
+        </div>    
+    </div>   
+    <footer>
+        <div id="muc1">
+            <h4>Thông Tin</h4>
+            <a href=""><p>về chúng tôi</p></a>
+            <p>thiết kế wed</p>
+            <a href="congthuc.html"><p>Công thức nấu ăn ngon</p></a>
+        </div>
+        <div id="muc2">
+            <h4>Trang liên hệ</h4>
+            <a href="http://sinhvien.hueic.edu.vn/"><p>WWW.sinhvien.hueic.edu.vn </p></a>
+        </div>
+        <div id="muc3">
+            <h4>Địa chỉ liên hiện</h4>
+            <a href="https://www.facebook.com/profile.php?id=100048204000366"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-solid fa-envelope"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer> 
+</div>   
+</body>
+</html>

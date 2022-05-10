@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Web ẩm thực</title>
+    <link rel="stylesheet" href="food.css">
+</head>
+<body>
+    <script type="text/javascript">
+        var index = 1;
+        setInterval(function(){
+            document.getElementById('radio' + index).checked = true;
+            index++;
+            if(index >4){
+                index = 1;
+            }
+        },2000)
+    </script>
+   <div class="wrapper">
+    <header>
+        <div class="container">
+            <div id="logo">
+                <img src="lohohue.png" alt="">
+               </div>
+               <div class="main-menu">
+                    <ul id="menu">
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="vechungtoi.html" target="_blank">Về chúng tôi</a></li>
+                        <li><a href="tukhoa.html" target="_blank">Từ Khoá </a></li>
+                        <li><a href="congthuc.html" target="_blank">Công thức</a></li>
+                    </ul>
+                    <div class="login">
+                        <a href="form1.html"><input type="submit" value="Đăng Nhập" id="use-login"></a>
+                    </div>
+               </div>
+        </div>
+    </header>
+    <div class="banner-slider">
+        <div class="sides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide-first">
+                <img src="bannerhue1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="bannerhue2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="bannerhue3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="bannerhue4.jpg" alt="">
+            </div>
+            <div class="side-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+        <div class="manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    <div class="conten">
+        <div id="thucdon">
+            <h1 id="td">Thực Đơn</h1>
+            <p>Bò nướng(1)</p>
+            <p>Yến Sào(2)</p>
+            <p>Cơm cuộn(3)</p>
+            <p>Gà Chiên(4)</p>
+            <p>Bò bít tết(5)</p>
+            <p>Tôm Hoa Anh Đào(6)</p>
+            <p>hamberger(7)</p>
+            <P>Mực nướng(8)</P>
+            <p>Súp Vi Cá(9)</p>
+        </div>
+        <div class="conten-monan">
+            <div class="monan">
+                <div id="anh">
+                    <img src="bò.jpg" alt="">
+                </div>
+                <div id="nd">
+                    <p id="time">Chuẩn bị 15p</p>
+                </div>
+            </div>
+            <div class="monan">
+                <div id="anh">
+                    <img src="yen.jpg" alt="">
+                </div>
+                <div id="nd">
+                    <p id="time">Chuẩn bị 15p</p>
+                </div>
+            </div>
+            <div class="monan">
+                <div id="anh">
+                    <img src="com.jpeg" alt="">
+                </div>
+                <div id="nd">
+                    <p id="time">Chuẩn bị 15p</p>
+                </div>
+            </div>
+            <div class="monan">
+                <div id="anh">
+                    <img src="gà.jpg" alt="">
+                </div>
+                <div id="nd">
+                    <p id="time">Chuẩn bị 15p</p>
+                </div>
+            </div>
+            <div class="monan">
+                <div id="anh">
+                    <img src="Bo-bit-tet-va-7-cap-do-chin-1.jpg" alt="">
+                </div>
+                <div id="nd">
+                    <p id="time">Chuẩn bị 15p</p>
+                </div>
+            </div>
+            <div class="monan">
+                <div id="anh">
+                    <img src="tôm.jpg" alt="">
+                </div>
+                <div id="nd">
+                    <p id="time">Chuẩn bị 15p</p>
+                </div>
+            </div>
+            <div class="monan">
+                <div id="anh">
+                    <img src="hamberger.jpg" alt="">
+                </div>
+                <div id="nd">
+                    <p id="time">Chuẩn bị 15p</p>
+                </div>
+            </div>
+            <div class="monan">
+                <div id="anh">
+                    <img src="mực.jpg" alt="">
+                </div>
+                <div id="nd">
+                    <p id="time">Chuẩn bị 15p</p>
+                </div>
+            </div>
+            <div class="monan">
+                <div id="anh">
+                    <img src="sup.jpg" alt="">
+                </div>
+                <div id="nd">
+                    <p id="time">Chuẩn bị 15p</p>
+                </div>
+            </div>
+        </div>  
+    </div>   
+    <footer>
+        <div id="muc1">
+            <h4>Thông Tin</h4>
+            <a href="vechungtoi.html"><p>về chúng tôi</p></a>
+            <p>thiết kế wed</p>
+            <a href="congthuc.html"><p>Công thức nấu ăn ngon</p></a>
+        </div>
+        <div id="muc2">
+            <h4>Trang liên hệ</h4>
+            <a href="http://sinhvien.hueic.edu.vn/"><p>WWW.sinhvien.hueic.edu.vn </p></a>
+        </div>
+        <div id="muc3">
+            <h4>Địa chỉ liên hiện</h4>
+            <a href="https://www.facebook.com/profile.php?id=100048204000366"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-solid fa-envelope"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+   </div>
+    
+</body>
+</html>

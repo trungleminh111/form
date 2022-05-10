@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 980px;
+    margin: auto;
+}
+#header{
+    height: 90px;
+    background-color: blue;
+}
+
+#a1{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
+#a2{
+    width: 200px;
+    height: 100px;
+    background-color: yellowgreen;
+    margin-left: 10px;
+}
+
+#a3{
+    width: 300px;
+    height: 100px;
+    background-color: bisque;
+    margin-left: 10px;
+}
+#a4{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin-left: 10px;
+}
+#a5{
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    margin-left: 10px;
+}
+#hang1{
+   display: flex;
+   margin-top: 10px;
+}
+#a6{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+
+}
+#a7{
+    width: 200px;
+    height: 100px;
+    background-color: yellowgreen;
+    margin-left: 10px;
+}
+
+#a8{
+    width: 200px;
+    height: 100px;
+    background-color: bisque;
+    margin-left: 10px;
+}
+#a9{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin-left: 10px;
+}
+#a10{
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+    margin-left: 10px;
+}
+#hang2{
+    display: flex;
+    margin-top: 10px;
+}
+#a11{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    
+}
+#a12{
+    width: 200px;
+    height: 100px;
+    background-color: yellowgreen;
+    margin-left: 10px;
+}
+
+#a13{
+    width: 300px;
+    height: 100px;
+    background-color:yellow;
+    margin-left: 10px;
+}
+#a14{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin-left: 10px;
+}
+#a15{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin-left: 10px;
+}
+#hang3{
+    display: flex;
+    margin-top: 10px;
+    
+}
+#footer{
+    margin-top: 10px;
+    display: block;
+    height: 90px;
+    background-color: blue;
+}

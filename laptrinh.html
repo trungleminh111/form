@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var a = 5 , b = 2, c = "5";
+        document.writeln("a > b la " + ( a > b)+ "<br/>");
+        document.writeln("a < b la " + ( a < b)+ "<br/>");
+        document.writeln("a >= b la " + ( a >= b)+ "<br/>");
+        document.writeln("a <= b la " + ( a <= b)+ "<br/>");
+        document.writeln("a == b la " + ( a == b)+ "<br/>");
+        document.writeln("a == c la " + ( a == c)+ "<br/>");
+        document.writeln("a === b la " + ( a === b)+ "<br/>");
+        document.writeln("a === c la " + ( a === c)+ "<br/>");
+        document.writeln("a != b la " + ( a != b)+ "<br/>");
+        function Tongchan(n){
+            s = 0;
+            for (i =1 ; i <= n; i++) 
+               if( i%2 == 0)
+               s +=i;
+                return s;
+            
+        }
+        n = prompt("nhap n");
+        document.writeln("tong chan" + Tongchan(n)+ "<br/>");
+        function tong(a,b){
+            s = a + b;
+            return s;
+        }
+        function hieu(a,b){
+            return a- b;
+        }
+        function hienthi( a, b, p){
+            if( p == "T")
+            document.writeln(a + "+" +b +"=" + tong(a,b)+"<br/>");
+            if( p == "H")
+            document.writeln(a + "+" +b +"=" + hieu(a,b)+"<br/>");
+        }
+        hienthi(4,5,"T");
+        hienthi(4,5,"H");
+        var a = function(m, n){
+            return m +n;
+        }(4, 5);
+        document.writeln("4+5 =" +a+"<br/>");
+
+        document.writeln("4-5 =" +function(m,n){
+            return m -n; 
+        }(4,5) +"<br/>");
+    document.getElementById('hovaten').innerHTML = document.getElementById('hotendem').value + document.getElementById('ten').value;   
+    </script>
+    <input type="text" id="hotendem" value="Lê Minh">
+    <input type="text" id="ten" value=" Trung">
+    <div id="hovaten"></div>
+    <script type="text/javascript">
+        document.getElementById('hovaten').innerHTML = document.getElementById('hotendem').value + document.getElementById('ten').value;
+    </script>
+    <input type="text" id="txt1" value="1">
+    <input type="text" id="txt2" value="2">
+    <input type="button" value="Tổng" id="btok">
+    <script type="text/javascript">
+        function Tong(){
+            a = parseInt(document.getElementById('txt1').value);
+            b = parseInt(document.getElementById('txt2').value);
+            return a + b;
+        }
+        document.getElementById('btok').addEventListener("click",function(){alert(Tong())},false);
+    </script>
+    <input type="button" id="bt1" value="Button 1" onclick="alert('Button 1');">
+    <input type="button" id="bt2" value="Button 2">
+    <input type="button" id="bt3" value="Button 3">
+    <script type="text/javascript">
+        document.getElementById('bt2').onclick = function(){alert('Button 2');};
+        document.getElementById('bt3').addEventListener('click', function(){alert('Button 3');},false);
+    </script>
+</body>
+</html>

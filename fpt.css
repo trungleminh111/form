@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    width: 980px;
+    margin: auto;
+}
+.logo{
+    text-align: center;
+    background: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu{
+    height: 35px;
+    background: #272f54;
+}
+.menu ul li{
+    float: left;
+    padding-left: 35px;
+    list-style: none;
+    
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 35px;
+    font-size: 13px;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+
+}
+.banner{
+    height: 250px;
+}
+.conten{
+    height: 985px;
+    background: #fff;
+}
+footer{
+    height: 40px;
+    background: #272f54;
+    width: 980px;
+    margin: auto;
+}
+.form{
+    float: right;
+    margin-right: 30px;
+    line-height: 35px;
+}
+.text{
+    width: 200px;
+    height: 20px;
+    background: #fff;
+}
+.login{
+    width: 90px;
+    height: 20px;
+    background: orangered;
+}
+.td{
+    color: #272f54;
+    height: 65px;
+    width: 980px;
+    line-height: 65px;
+}
+.td p{
+    color: #272f54;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sp{
+    width: 315px;
+    height: 415px;
+    border: 0.5px solid #ccc;
+    float: left;
+    text-align: center;
+    margin-right: 10px; 
+}
+.fix{
+    width: 980px;
+    height: 415px;
+    margin-bottom: 65px;
+}
+footer h3{
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+.tsp{
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #2a2828;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.giacu{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: line-through;
+}
+.giamoi{
+    color: red;
+    font-size: 20px;
+}
+
