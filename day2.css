@@ -18,9 +18,9 @@ body{
 }
 .wrapper{
     width: 1200px;
-   height: 400px;
-   display: flex;
-   justify-content: space-around;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
 }
 .card{
     background-color: #242628;
@@ -45,7 +45,7 @@ img{
     overflow: hidden;
     margin: 0px auto;
     transform: translateY(25px);
-    transition: 0.3 s;
+    transition: 0.3s;
 }
 .card h2{
     margin-top: 35px;
