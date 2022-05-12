@@ -16,6 +16,12 @@ body{
     font-family: 'Poppins';
     color: white;
 }
+.wrapper{
+    width: 1200px;
+   height: 400px;
+   display: flex;
+   justify-content: space-around;
+}
 .card{
     background-color: #242628;
     width: 300px;
@@ -39,7 +45,7 @@ img{
     overflow: hidden;
     margin: 0px auto;
     transform: translateY(25px);
-    transition: 0.3s;
+    transition: 0.3 s;
 }
 .card h2{
     margin-top: 35px;
