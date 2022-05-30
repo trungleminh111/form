@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: white;
+}
+.wrapper{
+    width: 980px;
+    margin: 0 auto;
+}
+#top-header{
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+}
+#top-header a{
+  line-height: 90px;
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+}
+#logo-header{
+    margin-left: 180px;
+}
+#main-header{
+    height: 70px;
+    display: flex;
+    background-color: #777777;
+    
+}
+#menu{
+    display: flex;
+    line-height: 70px;
+    list-style: none;
+    margin-left: 30px;
+}
+#menu a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+    font-weight: 200;
+}
+#main-header input{
+    height: 30px;
+    width:200px ;
+    background-color:white;
+    outline: none;
+    border: none;
+}
+#main-header button{
+    padding: 8px 10px;
+    background-color: #ccc;
+    border: none;
+    outline: none;
+}
+#login{
+    line-height: 70px;
+    margin-left:250px;
+}
+.banner{
+    margin-top: 30px;
+    width: 980px;
+    height: 400px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+#name-sale {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+#name-gender{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.danhmuc{
+    text-align: center;
+    margin: 30px;
+}
+h3{
+    border: 1px solid #bebebe;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.product{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.product-main{
+   padding: 10px 0px;
+   max-width: 100%;
+   background-color: white;
+   text-align: center;
+   margin-right: 30px;
+   margin-bottom: 30px;
+   
+ 
+}
+.product-main img{
+    width: 150px;
+    height: 150px;
+}
+#name-product{
+    font-size: 20px;
+    font-weight: 200;
+}
+#code-product{
+    font-size: 20px;
+    font-weight: 200;
+}
+#price-product{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+#add-card{
+    background-color: #6667ab;
+    text-align: center;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.product-main:hover{
+    box-shadow: -3px 6px 15px 5px #888888;
+}
+.footer{
+    background-color: #353535;
+    width: 980px;
+    min-height: 30px;
+    justify-content: space-around;
+    margin-top: 15px;
+
+}
+.footer-main{
+    display: flex;
+    justify-content: space-around;
+}
+#muc1 p{
+    text-decoration: none;
+    color: darkgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#muc2 p{
+    text-decoration: none;
+    color: darkgrey;
+    margin-top: 10px;
+}
+#muc3 i{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#muc1 a{
+    text-decoration: none;
+}
+#muc2 a{
+    text-decoration: none;
+}
+
+i{
+    color: black;
+    font-size: 20px;
+    
+}
+#muc1 h4{
+    margin-top: 10px;
+}
+#muc2 h4{
+    margin-top: 10px;
+}
+#muc3 h4{
+    margin-top: 10px;
+}
+.logo{
+    margin-left: -58px;
+}
+.footer-tk{
+    padding: 10px;
+}
+.footer-tk p{
+    color: #ccc;
+    text-align: center;
+}
+    </style>
+    <div class="wrapper">
+        <div class="header">
+            <div id="top-header">
+                <a href="">
+                    ĐĂNG NHẬP / ĐĂNG KÍ
+                </a>
+                <div id="logo-header">
+                    <img src="img-doan/Untitled-2.png" alt="">
+                </div>
+            </div>
+            <div id="main-header">
+                <ul id="menu">
+                    <a href="doan.html"><li>TRANG CHỦ</li></a>
+                    <a href="nam.html"><li>NAM</li></a>
+                    <a href="nu.html"><li>NỮ</li></a>
+                    <a href=""><li>LIÊN HỆ</li></a>
+                </ul>
+                <div id="login">
+                    <input type="text">
+                <button type="submit">TÌM KIẾM</button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="banner">
+                <img src="img-doan/BANNERDOAN.jpg" alt="">
+            </div>
+           <div class="danhmuc">
+            <h3>sản phẩm nữ</h3>
+           </div>
+            <div class="product">
+                <div class="product-main">
+                    <img src="img-doan/ANH GIAY LUOI.jpg" alt="">
+                    <p id="name-product">Giày Lười Nam</p>
+                    <p id="code-product">QTP1</p>
+                    <p id="price-product">990.000đ</p>
+                    <input type="text" id="add-card" value="THÊM VÀO GIỎ HÀNG">
+                </div>
+                <div class="product-main">
+                    <img src="img-doan/nam-sp2.jpg" alt="">
+                    <p id="name-product">Giày Converse</p>
+                    <p id="code-product">QTP1</p>
+                    <p id="price-product">990.000đ</p>
+                    <input type="text" id="add-card" value="THÊM VÀO GIỎ HÀNG">
+                </div>
+                <div class="product-main">
+                    <img src="img-doan/nam-sp3.jpg" alt="">
+                    <p id="name-product">Giày Sneaker</p>
+                    <p id="code-product">QTP1</p>
+                    <p id="price-product">990.000đ</p>
+                    <input type="text" id="add-card" value="THÊM VÀO GIỎ HÀNG">
+                </div>
+                <div class="product-main">
+                    <img src="img-doan/nam-sp4.jpg" alt="">
+                    <p id="name-product">Giày Da Nam</p>
+                    <p id="code-product">QTP1</p>
+                    <p id="price-product">990.000đ</p>
+                    <input type="text" id="add-card" value="THÊM VÀO GIỎ HÀNG">
+                </div>
+                <div class="product-main">
+                    <img src="img-doan/ANH GIAY LUOI.jpg" alt="">
+                    <p id="name-product">Giày Lười Nam</p>
+                    <p id="code-product">QTP1</p>
+                    <p id="price-product">990.000đ</p>
+                    <input type="text" id="add-card" value="THÊM VÀO GIỎ HÀNG">
+                </div>
+                <div class="product-main">
+                    <img src="img-doan/nam-sp2.jpg" alt="">
+                    <p id="name-product">Giày Converse</p>
+                    <p id="code-product">QTP1</p>
+                    <p id="price-product">990.000đ</p>
+                    <input type="text" id="add-card" value="THÊM VÀO GIỎ HÀNG">
+                </div>
+                <div class="product-main">
+                    <img src="img-doan/nam-sp3.jpg" alt="">
+                    <p id="name-product">Giày Sneaker</p>
+                    <p id="code-product">QTP1</p>
+                    <p id="price-product">990.000đ</p>
+                    <input type="text" id="add-card" value="THÊM VÀO GIỎ HÀNG">
+                </div>
+                <div class="product-main">
+                    <img src="img-doan/nam-sp4.jpg" alt="">
+                    <p id="name-product">Giày Da Nam</p>
+                    <p id="code-product">QTP1</p>
+                    <p id="price-product">990.000đ</p>
+                    <input type="text" id="add-card" value="THÊM VÀO GIỎ HÀNG">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-main">
+              <div id="muc1">
+                  <h4>Thông Tin</h4>
+                  <a href="vechungtoi.html"><p>DESGIN</p></a>
+                 
+                  <a href="congthuc.html"><p>SIGN UP FOR EMAIL</p></a>
+              </div>
+              <div id="muc2">
+                  <h4>Trang liên hệ</h4>
+                  <a href="http://sinhvien.hueic.edu.vn/"><p>WWW.sinhvien.hueic.edu.vn </p></a>
+                  <div class="logo">
+                      <img src="Untitled-2.png" alt="">
+                  </div>
+              </div>
+              <div id="muc3">
+                  <h4>Địa chỉ liên hiện</h4>
+                  <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-solid fa-envelope"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+            <hr>
+            <div class="footer-tk">
+                <p>© Bản quyền thuộc về. Thiết kế website Mấy Thằng Em </p>
+            </div>
+          </div>
+    </div>    
+</body>
+</html>
